@@ -1,0 +1,91 @@
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    color: #ffffff;
+    background: linear-gradient(lightskyblue, pink);
+}
+
+.Acepic{
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #EFB0C9;
+}
+
+h1, h2, h3, h4, p{
+    text-shadow: 0px 0px 1px black;
+}
+
+#age {
+    background: #EFB0C9;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+}
+
+#date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift_message{
+    margin: 30px 0 20px 0;
+}
+
+.gift_instruction{
+    margin: 30px 0 20px 0;
+}
+
+.gift{
+    width: 400px;
+    height: 400px;
+    background-image: url(gift-cover.jpg);
+    background-size: cover;
+    border: 6px solid white;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.gift:hover{
+    background-image: url(cj.gif);
+    background-size: cover;
+}
+
+#gift_compliment:hover{
+    background-image: url(prisonmike.gif);
+}
+
+
+#gift_oneword:hover{
+    background-image: url(johnwick.gif);
+}
+
+#gift_person:hover{
+    background-image: url(kobe.gif);
+}
+
+#gift_cheers{
+    height: 200px;
+}
+
+#gift_cheers:hover{
+    background-image: url(leo.gif);
+    background-size: cover;
+}
+
+p{
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+a{
+    color: white;
+}
